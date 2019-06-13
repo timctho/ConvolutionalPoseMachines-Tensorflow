@@ -312,9 +312,7 @@ def main(argv):
                 output_img = cv2.applyColorMap(output_img, cv2.COLORMAP_JET)
                 test_img = cv2.resize(test_img, (300, 300), cv2.INTER_LANCZOS4)
                 cv2.imshow('hm', output_img)
-                cv2.moveWindow('hm', 2000, 200)
                 cv2.imshow('rgb', test_img)
-                cv2.moveWindow('rgb', 2000, 750)
                 if cv2.waitKey(1) == ord('q'): break
 
 
