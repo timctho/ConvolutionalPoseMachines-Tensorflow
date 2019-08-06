@@ -55,7 +55,7 @@ If you want to follow the script, you need to prepare your data like
  - dataset/person_0/labels.txt
 
 And in **labels.txt**, the data format is
-`imgs_0.jpg bbox_top_left_y bbox_top_left_x bbox_bot_right_y bbox_bot_right_x joint_0_y joint_0_x joint_1_y joint_1_x ....`
+`imgs_0.jpg bbox_top_left_x bbox_top_left_y bbox_bot_right_x bbox_bot_right_y joint_0_x joint_0_y joint_1_x joint_1_y ....`
 
 ### Original Training
 See **models/nets** for model definition, I take **models/nets/cpm_hand.py** for example.
